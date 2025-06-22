@@ -1995,6 +1995,7 @@ input, select, textarea {
 
 			.item header h3 {
 				font-size: 1em;
+				font-weight: 600;
 			}
 
 /* Icons */
@@ -2642,11 +2643,11 @@ input, select, textarea {
 	}
 	
 	.profile-pic {
-		width: 350px;
-		height: auto;
-		border-radius: 20%;
-		margin-right: 20px;
-		margin-left: 20px;
+		width: 175px;
+		height: 175px;
+		border-radius: 50%;
+		object-fit: cover;
+		margin-bottom: 1em;
 	}
 
 	
@@ -2766,6 +2767,11 @@ input, select, textarea {
   color: #ffffff;
   font-weight: 500;
   text-align: center;
+}
+
+/* Card Link */
+.card-link, .card-link:hover {
+	border-bottom: none;
 }
 
 
